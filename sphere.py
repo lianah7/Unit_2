@@ -27,5 +27,5 @@ print("The area of a triangle is", area_of_triangle)
 
 # problem 4 classwork
 compound_interest = 10000 * (1 + (0.08/12)) ** (12 * 10)
-print("The compoun interest is", compound_interest)
+print("The compound interest is", compound_interest)
 
