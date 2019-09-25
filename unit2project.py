@@ -1,6 +1,7 @@
 # by Liana Hill
 # last updated September 23, 2019
 # unit 2 assignment option one
+# this program creates a conversation between a chat bot and user to find the total cost and value of a car
 
 name = input("What is your name?")
 print("It's nice to meet you", name, "My name is Emma from Engineering.")
@@ -19,10 +20,9 @@ print("That's expensive!")
 
 years = int(input("How many years will it take for you to pay off the car?"))
 
+# the following lines are for calculating the total cost of the car
 annual_interest = float(input("What is the annual interest rate of the car?"))
-
 monthly_interest = (annual_interest/100)/12
-
 number_of_monthly_payments = years * 12
 
 monthly_payments = (monthly_interest * cost) / (1 - (1 + monthly_interest) ** -(number_of_monthly_payments))
